@@ -1,0 +1,19 @@
+CKBchallengesCONST Campaign 2 - Cell Journal Summary
+
+Repo: CKBchallengesCONST
+Account: SUEMUNYAO
+Network: OffCKB local devnet
+RPC: http://127.0.0.1:28114
+Tutorial: https://docs.nervos.org/docs/dapp/store-data-on-cell
+
+Journal entry: SUEMUNYAO Campaign 2 journal entry: this cell holds a receipt I can reopen by out point.
+Encoded hex: 0x5355454d554e59414f2043616d706169676e2032206a6f75726e616c20656e7472793a20746869732063656c6c20686f6c64732061207265636569707420492063616e2072656f70656e206279206f757420706f696e742e
+
+Transaction hash: 0x5af43d4266412311a273748b20f2872b424b5df0f96beb74d7f7d0de0ad4576b
+Out point: 0x5af43d4266412311a273748b20f2872b424b5df0f96beb74d7f7d0de0ad4576b:0x0
+Status: committed
+Block: 0x1982
+
+Live cell status: live
+Live cell capacity: 0x3781bf500
+Reopened text: SUEMUNYAO Campaign 2 journal entry: this cell holds a receipt I can reopen by out point.

@@ -1,0 +1,45 @@
+
+> ckb-store-cell-journal@0.1.0 campaign02:cell-journal
+> node campaign-02-cell-journal/run-cell-journal.mjs
+
+CKB Campaign 2 Cell Journal Run
+Repository identity: CKBchallengesCONST / SUEMUNYAO
+Tutorial: https://docs.nervos.org/docs/dapp/store-data-on-cell
+RPC: http://127.0.0.1:28114
+Tip at start: 0x197f
+
+Journal step A - Seal a readable sentence into bytes
+Journal entry: SUEMUNYAO Campaign 2 journal entry: this cell holds a receipt I can reopen by out point.
+Cell data hex: 0x5355454d554e59414f2043616d706169676e2032206a6f75726e616c20656e7472793a20746869732063656c6c20686f6c64732061207265636569707420492063616e2072656f70656e206279206f757420706f696e742e
+Immediate decode check: SUEMUNYAO Campaign 2 journal entry: this cell holds a receipt I can reopen by out point.
+
+Journal step B - Assemble one output cell carrying the entry
+Journal cell lock args: 0x8e42b1999f265a0078503c4acec4d5e134534297
+Draft output count: 1
+Draft data payload: 0x5355454d554e59414f2043616d706169676e2032206a6f75726e616c20656e7472793a20746869732063656c6c20686f6c64732061207265636569707420492063616e2072656f70656e206279206f757420706f696e742e
+Funded input count: 1
+Final output count: 2
+Journal output capacity: 14900000000
+Journal transaction sent: 0x5af43d4266412311a273748b20f2872b424b5df0f96beb74d7f7d0de0ad4576b
+
+Journal step C - Reopen the live cell by out point
+  journal lookup 1: pending
+  journal lookup 2: pending
+  journal lookup 3: pending
+  journal lookup 4: pending
+  journal lookup 5: pending
+  journal lookup 6: pending
+  journal lookup 7: pending
+  journal lookup 8: proposed
+  journal lookup 9: proposed
+  journal lookup 10: proposed
+  journal lookup 11: committed
+Committed at block: 0x1982
+Journal out point: 0x5af43d4266412311a273748b20f2872b424b5df0f96beb74d7f7d0de0ad4576b:0x0
+Live cell status: live
+Live cell capacity: 0x3781bf500
+Reopened hex: 0x5355454d554e59414f2043616d706169676e2032206a6f75726e616c20656e7472793a20746869732063656c6c20686f6c64732061207265636569707420492063616e2072656f70656e206279206f757420706f696e742e
+Reopened text: SUEMUNYAO Campaign 2 journal entry: this cell holds a receipt I can reopen by out point.
+
+Saved cell journal proof: /home/core/Desktop/CKB/CKBchallengesCONST/campaign-02-proof/cell-journal-result.json
+Cell journal proof complete: encoded, built, committed, reopened, decoded.
