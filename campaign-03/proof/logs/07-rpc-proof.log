@@ -1,0 +1,9 @@
+Script started on 2026-07-31 16:22:30+03:00 [COMMAND="node scripts/collect-proof.mjs" <not executed on terminal>]
+RPC PROOF captured
+TIP 0x4ec9
+DEPLOYMENT 0xe54a18c3a5bfc8a120e8295035afbb71b64b424e4082dcb4b7419af397ab6be0
+DEPOSIT 0x4f6e538670b2b3620bc69b14b5a71b3c1709a9dc5ac59b80df8ad70b899a582f
+UNLOCK 0x784f8f1651aac620924db86794882464dcfc8178a1975cd90e5ca68ede062705
+OUTPUT /home/core/Desktop/CKB/CKBchallengesCONST/campaign-03/proof/rpc-evidence.json
+
+Script done on 2026-07-31 16:22:30+03:00 [COMMAND_EXIT_CODE="0"]

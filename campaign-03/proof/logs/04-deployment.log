@@ -1,0 +1,32 @@
+Script started on 2026-07-31 15:55:47+03:00 [COMMAND="npm run deploy -- --yes" <not executed on terminal>]
+
+> suemunyao-intent-lock-lab@0.1.0 deploy
+> node scripts/deploy.js --yes
+
+DEPLOY contracts: intent-lock.bc
+NETWORK devnet
+COMMAND offckb deploy --network devnet --target dist --output deployment --yes
+Preparing to deploy 1 contract(s):
+    intent-lock.bc
+
+    Deployment artifacts will be saved to: /home/core/Desktop/CKB/CKBchallengesCONST/campaign-03/intent-lock-lab/deployment
+    Network: devnet
+    Using default private key
+    Type ID: disabled (immutable)
+contract intent-lock.bc deployed, tx hash: 0xe54a18c3a5bfc8a120e8295035afbb71b64b424e4082dcb4b7419af397ab6be0
+wait for tx confirmed on-chain...
+tx committed.
+
+ Saving deployment artifacts for 1 contract(s)...
+-  Saving artifacts for intent-lock.bc...
+- intent-lock.bc deployment.toml file /home/core/Desktop/CKB/CKBchallengesCONST/campaign-03/intent-lock-lab/deployment/devnet/intent-lock.bc/deployment.toml generated successfully.
+- Migration json file /home/core/Desktop/CKB/CKBchallengesCONST/campaign-03/intent-lock-lab/deployment/devnet/intent-lock.bc/migrations/2026-07-31-155603.json generated successfully.
+-  Successfully saved artifacts for intent-lock.bc
+-  Script info file generated: /home/core/Desktop/CKB/CKBchallengesCONST/campaign-03/intent-lock-lab/deployment/scripts.json
+
+ All deployment artifacts saved successfully!
+Secp256k1 bindings are not compiled. Pure JS implementation will be used.
+DEPLOY status: passed
+ARTIFACTS deployment
+
+Script done on 2026-07-31 15:56:04+03:00 [COMMAND_EXIT_CODE="0"]

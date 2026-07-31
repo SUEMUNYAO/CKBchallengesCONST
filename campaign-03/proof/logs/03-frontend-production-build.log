@@ -1,0 +1,31 @@
+Script started on 2026-07-31 16:23:49+03:00 [COMMAND="node scripts/run-ascii.mjs npm --prefix frontend run build" <not executed on terminal>]
+> intent-lock-console@0.1.0 build
+> next build
+
+    Next.js 15.5.18
+   - Environments: .env.local
+
+   Creating an optimized production build ...
+  Compiled successfully in 5.1s
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/4) ...
+   Generating static pages (1/4)
+   Generating static pages (2/4)
+   Generating static pages (3/4)
+  Generating static pages (4/4)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+  /                                     146 kB         248 kB
+  /_not-found                            995 B         103 kB
++ First Load JS shared by all             102 kB
+   chunks/255-4f84124391a7dac4.js       46.2 kB
+   chunks/4bd1b696-c023c6e3521b1417.js  54.2 kB
+   other shared chunks (total)          1.94 kB
+
+
+  (Static)  prerendered as static content
+
+Script done on 2026-07-31 16:24:16+03:00 [COMMAND_EXIT_CODE="0"]

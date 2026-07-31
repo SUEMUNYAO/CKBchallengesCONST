@@ -1,0 +1,50 @@
+{
+  "campaign": "Build on CKB: Campaign 03",
+  "account": "SUEMUNYAO",
+  "tutorial": "Build a Simple Lock",
+  "network": "OffCKB local devnet",
+  "rpcUrl": "http://127.0.0.1:28114",
+  "contract": {
+    "name": "intent-lock",
+    "codeHash": "0xf223d4ed8d528e7bdc42f39fc80d39f0db02199684d8dd30cc04b123e73b2f36",
+    "bytecodeSha256": "7bdfa592ff226a35a307819b70de5e154724e30db773ab86b4a8ebc3719ff351",
+    "deploymentTx": "0xe54a18c3a5bfc8a120e8295035afbb71b64b424e4082dcb4b7419af397ab6be0",
+    "deploymentStatus": "committed",
+    "preimageHash": "0x545b1590537706decc12d20cff64a290aca43e04740fe512ad9b734be11b1a2b",
+    "recipientLockHash": "0x7de82d61a7eb2ec82b0dc653e558ba120efcbfbb44dac87c12972d05bf250653"
+  },
+  "deposit": {
+    "txHash": "0x4f6e538670b2b3620bc69b14b5a71b3c1709a9dc5ac59b80df8ad70b899a582f",
+    "capacityCkb": "360",
+    "status": "committed",
+    "postUnlockCellStatus": "unknown"
+  },
+  "rejectedAttempt": {
+    "witness": "paper cranes cross midday",
+    "exitCode": 11,
+    "observedInProductionFrontend": true,
+    "committedTransactionHash": null
+  },
+  "unlock": {
+    "txHash": "0x784f8f1651aac620924db86794882464dcfc8178a1975cd90e5ca68ede062705",
+    "status": "committed",
+    "recipientAddress": "ckt1qzda0cr08m85hc8jlnfp3zer7xulejywt49kt2rr0vthywaa50xwsqvwg2cen8extgq8s5puft8vf40px3f599cytcyd8",
+    "recipientCapacityCkb": "120",
+    "changeCapacityCkb": "239.99999",
+    "feeCkb": "0.00001",
+    "recipientCellStatus": "live",
+    "changeCellStatus": "live"
+  },
+  "frontend": {
+    "name": "Intent Lock Console",
+    "productionUrl": "http://127.0.0.1:3001",
+    "typecheck": "passed",
+    "productionBuild": "passed",
+    "browserConsoleErrors": 0
+  },
+  "verification": {
+    "offlineCheckCount": 47,
+    "allChecksPassed": true,
+    "checkedAt": "2026-07-31T13:14:18.936Z"
+  }
+}

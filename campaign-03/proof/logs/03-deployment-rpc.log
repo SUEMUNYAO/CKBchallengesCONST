@@ -1,0 +1,10 @@
+Script started on 2026-07-31 16:22:30+03:00 [COMMAND="node scripts/proof-report.mjs deployment" <not executed on terminal>]
+BUILD ON CKB CAMPAIGN 03
+Custom lock deployment
+CONTRACT intent-lock
+CODE_HASH 0xf223d4ed8d528e7bdc42f39fc80d39f0db02199684d8dd30cc04b123e73b2f36
+TRANSACTION 0xe54a18c3a5bfc8a120e8295035afbb71b64b424e4082dcb4b7419af397ab6be0
+STATUS committed
+BYTECODE_SHA256 7bdfa592ff226a35a307819b70de5e154724e30db773ab86b4a8ebc3719ff351
+
+Script done on 2026-07-31 16:22:30+03:00 [COMMAND_EXIT_CODE="0"]

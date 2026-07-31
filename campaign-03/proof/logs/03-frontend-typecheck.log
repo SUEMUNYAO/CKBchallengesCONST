@@ -1,0 +1,5 @@
+Script started on 2026-07-31 16:23:38+03:00 [COMMAND="node scripts/run-ascii.mjs npm --prefix frontend run typecheck" <not executed on terminal>]
+> intent-lock-console@0.1.0 typecheck
+> tsc --noEmit --incremental false
+
+Script done on 2026-07-31 16:23:42+03:00 [COMMAND_EXIT_CODE="0"]

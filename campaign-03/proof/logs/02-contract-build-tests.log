@@ -1,0 +1,135 @@
+Script started on 2026-07-31 16:22:57+03:00 [COMMAND="node scripts/run-ascii.mjs npm run test:mock" <not executed on terminal>]
+> suemunyao-intent-lock-lab@0.1.0 test:mock
+> run-s build test:only
+
+
+> suemunyao-intent-lock-lab@0.1.0 build
+> node scripts/build-all.js
+
+BUILD contracts: intent-lock
+BUILD contract: intent-lock
+SOURCE contracts/intent-lock/src/index.ts
+MODE release
+BYTECODE dist/intent-lock.bc
+BUILD status: passed
+BUILD all contracts: passed
+
+> suemunyao-intent-lock-lab@0.1.0 test:only
+> jest tests/intent-lock.mock.test.ts --runInBand
+
+  console.log
+
+
+     Script Verification Summary
+     Type: input lock script
+     Index: 0
+
+     STDOUT:
+     Script log: [DEBUG] Preimage and recipient accepted
+     Run result: 0
+     All cycles: 13791298(13.2M)
+
+     STDERR:
+     Secp256k1 bindings are not compiled. Pure JS implementation will be used.
+     (node:3333197) ExperimentalWarning: WASI is an experimental feature and might change at any time
+     (Use `node --trace-warnings ...` to show where the warning was created)
+
+
+      at ScriptVerificationResult.reportSummary (node_modules/ckb-testtool/dist.commonjs/unittest/core.js:106:17)
+
+  console.log
+
+
+     Script Verification Summary
+     Type: input lock script
+     Index: 0
+
+     STDOUT:
+     Script log: [ERROR] The witness preimage does not match the committed hash
+     Run result: 11
+     All cycles: 13723511(13.1M)
+
+     STDERR:
+     Secp256k1 bindings are not compiled. Pure JS implementation will be used.
+     (node:3333325) ExperimentalWarning: WASI is an experimental feature and might change at any time
+     (Use `node --trace-warnings ...` to show where the warning was created)
+
+
+      at ScriptVerificationResult.reportSummary (node_modules/ckb-testtool/dist.commonjs/unittest/core.js:106:17)
+
+  console.log
+
+
+     Script Verification Summary
+     Type: input lock script
+     Index: 0
+
+     STDOUT:
+     Script log: [ERROR] The witness lock field must contain a preimage
+     Run result: 10
+     All cycles: 13637903(13.0M)
+
+     STDERR:
+     Secp256k1 bindings are not compiled. Pure JS implementation will be used.
+     (node:3333702) ExperimentalWarning: WASI is an experimental feature and might change at any time
+     (Use `node --trace-warnings ...` to show where the warning was created)
+
+
+      at ScriptVerificationResult.reportSummary (node_modules/ckb-testtool/dist.commonjs/unittest/core.js:106:17)
+
+  console.log
+
+
+     Script Verification Summary
+     Type: input lock script
+     Index: 0
+
+     STDOUT:
+     Script log: [ERROR] Expected 99 argument bytes, received 67
+     Run result: 12
+     All cycles: 13338889(12.7M)
+
+     STDERR:
+     Secp256k1 bindings are not compiled. Pure JS implementation will be used.
+     (node:3333830) ExperimentalWarning: WASI is an experimental feature and might change at any time
+     (Use `node --trace-warnings ...` to show where the warning was created)
+
+
+      at ScriptVerificationResult.reportSummary (node_modules/ckb-testtool/dist.commonjs/unittest/core.js:106:17)
+
+  console.log
+
+
+     Script Verification Summary
+     Type: input lock script
+     Index: 0
+
+     STDOUT:
+     Script log: [ERROR] Output zero does not use the committed recipient lock
+     Run result: 13
+     All cycles: 13773181(13.1M)
+
+     STDERR:
+     Secp256k1 bindings are not compiled. Pure JS implementation will be used.
+     (node:3334077) ExperimentalWarning: WASI is an experimental feature and might change at any time
+     (Use `node --trace-warnings ...` to show where the warning was created)
+
+
+      at ScriptVerificationResult.reportSummary (node_modules/ckb-testtool/dist.commonjs/unittest/core.js:106:17)
+(node:3332813) ExperimentalWarning: WASI is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+PASS tests/intent-lock.mock.test.ts (17.427 s)
+  intent-lock contract
+     accepts the committed preimage and recipient (2371 ms)
+     rejects a different preimage with exit code 11 (2514 ms)
+     rejects an empty witness with exit code 10 (2323 ms)
+     rejects malformed arguments with exit code 12 (2825 ms)
+     rejects a redirected output with exit code 13 (3875 ms)
+
+Test Suites: 1 passed, 1 total
+Tests:       5 passed, 5 total
+Snapshots:   0 total
+Time:        17.602 s, estimated 20 s
+Ran all test suites matching /tests\/intent-lock.mock.test.ts/i.
+
+Script done on 2026-07-31 16:23:21+03:00 [COMMAND_EXIT_CODE="0"]

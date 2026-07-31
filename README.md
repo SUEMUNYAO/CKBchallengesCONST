@@ -1,16 +1,21 @@
 # CKBchallengesCONST
 
-Campaign proof repo for CKB challenges.
+Local implementations and reviewer-verifiable proof for Build on CKB campaigns.
 
-## Campaign 2 - Store Data on Cell
+## Campaign 02 - Store Data on Cell
 
-This repo completes the official [Store Data on Cell](https://docs.nervos.org/docs/dapp/store-data-on-cell) tutorial with a distinct **cell journal** flow.
+The official Store Data on Cell tutorial is implemented as a cell journal.
 
-Proof folder: [campaign-02-proof](campaign-02-proof/README.md)
+Proof: [campaign-02-proof](campaign-02-proof/README.md)
 
-- Transaction hash: `0x5af43d4266412311a273748b20f2872b424b5df0f96beb74d7f7d0de0ad4576b`
-- Out point: `0x5af43d4266412311a273748b20f2872b424b5df0f96beb74d7f7d0de0ad4576b:0x0`
+- Transaction: `0x5af43d4266412311a273748b20f2872b424b5df0f96beb74d7f7d0de0ad4576b`
 - Live cell status: `live`
 - Reopened text: `SUEMUNYAO Campaign 2 journal entry: this cell holds a receipt I can reopen by out point.`
 
-The tutorial runner is in [ckb-store-cell-journal/campaign-02-cell-journal/run-cell-journal.mjs](ckb-store-cell-journal/campaign-02-cell-journal/run-cell-journal.mjs).
+## Campaign 03 - Build a Simple Lock
+
+The official Build a Simple Lock tutorial is implemented as a recipient-bound
+intent lock with a production frontend for funding, rejecting a mismatched
+witness, and committing a valid unlock.
+
+Campaign package: [campaign-03](campaign-03/README.md)

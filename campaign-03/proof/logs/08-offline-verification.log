@@ -1,0 +1,51 @@
+Script started on 2026-07-31 16:24:30+03:00 [COMMAND="node scripts/run-ascii.mjs node scripts/verify-proof.mjs" <not executed on terminal>]
+PASS proof schema
+PASS network scope
+PASS deployment hash ledger
+PASS deposit hash ledger
+PASS unlock hash ledger
+PASS deployment transaction hash
+PASS deposit transaction hash
+PASS unlock transaction hash
+PASS deployment committed
+PASS deposit committed
+PASS unlock committed
+PASS deployment metadata hash
+PASS deployment metadata transaction
+PASS compiled bytecode CKB hash
+PASS deployment bytecode content
+PASS deployment live-cell data hash
+PASS deployment cell is live
+PASS preimage CKB hash
+PASS recipient script hash
+PASS intent argument bytes
+PASS intent argument length
+PASS intent lock code hash
+PASS intent lock hash type
+PASS deposit output count
+PASS deposit output data
+PASS deposit capacity
+PASS unlock input count
+PASS unlock spends deposit
+PASS unlock spends deposit index zero
+PASS unlock contract dependency
+PASS unlock output count
+PASS recipient capacity
+PASS change capacity
+PASS change preserves intent lock
+PASS recipient data empty
+PASS change data empty
+PASS canonical preimage witness
+PASS transaction fee
+PASS spent deposit is unknown
+PASS spent deposit has no cell
+PASS recipient cell is live
+PASS recipient live capacity
+PASS recipient live lock
+PASS change cell is live
+PASS change live capacity
+PASS change live lock
+PASS raw proof excludes private key
+VERIFICATION passed: 47 checks
+
+Script done on 2026-07-31 16:24:30+03:00 [COMMAND_EXIT_CODE="0"]

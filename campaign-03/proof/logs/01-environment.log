@@ -1,0 +1,10 @@
+Script started on 2026-07-31 16:22:30+03:00 [COMMAND="node scripts/proof-report.mjs environment" <not executed on terminal>]
+BUILD ON CKB CAMPAIGN 03
+Environment
+0.4.6
+Secp256k1 bindings are not compiled. Pure JS implementation will be used.
+RPC http://127.0.0.1:28114
+TIP 0x4ec9
+STATUS ready
+
+Script done on 2026-07-31 16:22:31+03:00 [COMMAND_EXIT_CODE="0"]

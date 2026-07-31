@@ -1,0 +1,12 @@
+Script started on 2026-07-31 16:22:34+03:00 [COMMAND="node scripts/proof-report.mjs final" <not executed on terminal>]
+BUILD ON CKB CAMPAIGN 03
+Committed cell transition
+DEPOSIT 0x4f6e538670b2b3620bc69b14b5a71b3c1709a9dc5ac59b80df8ad70b899a582f
+DEPOSIT_AFTER_UNLOCK unknown
+UNLOCK 0x784f8f1651aac620924db86794882464dcfc8178a1975cd90e5ca68ede062705
+RECIPIENT 120 CKB / live
+CHANGE 239.99999 CKB / live
+FEE 0.00001 CKB
+OFFLINE_CHECKS 47 passed
+
+Script done on 2026-07-31 16:22:34+03:00 [COMMAND_EXIT_CODE="0"]

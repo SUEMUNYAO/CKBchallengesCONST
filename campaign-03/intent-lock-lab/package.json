@@ -1,0 +1,42 @@
+{
+  "name": "suemunyao-intent-lock-lab",
+  "version": "0.1.0",
+  "description": "Recipient-bound hash-lock tutorial on an OffCKB devnet",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:contract": "node scripts/build-contract.js",
+    "build:contract:debug": "node scripts/build-contract.js --debug",
+    "build": "node scripts/build-all.js",
+    "build:debug": "node scripts/build-all.js --debug",
+    "deploy": "node scripts/deploy.js",
+    "test:only": "jest tests/intent-lock.mock.test.ts --runInBand",
+    "clean": "rimraf dist",
+    "format": "prettier --write .",
+    "test:mock": "run-s build test:only",
+    "frontend:typecheck": "npm --prefix frontend run typecheck",
+    "frontend:build": "npm --prefix frontend run build",
+    "collect:proof": "node scripts/collect-proof.mjs",
+    "verify:offline": "node scripts/verify-proof.mjs",
+    "verify:integrity": "sha256sum --check ../proof/SHA256SUMS",
+    "verify:submission": "npm run test:mock && npm run frontend:typecheck && npm run frontend:build && npm run verify:offline && npm run verify:integrity"
+  },
+  "dependencies": {
+    "@ckb-js-std/bindings": "~1.0.0",
+    "@ckb-js-std/core": "~1.0.0",
+    "dotenv": "^17.2.1"
+  },
+  "devDependencies": {
+    "@ckb-ccc/core": "1.12.2",
+    "@types/jest": "~29.5.14",
+    "@types/node": "~22.13.8",
+    "ckb-testtool": "1.0.5",
+    "esbuild": "~0.25.8",
+    "jest": "~29.7.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^3.5.3",
+    "rimraf": "^6.0.1",
+    "ts-jest": "~29.2.6",
+    "typescript": "~5.8.2"
+  }
+}
