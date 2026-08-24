@@ -19,3 +19,13 @@ intent lock with a production frontend for funding, rejecting a mismatched
 witness, and committing a valid unlock.
 
 Campaign package: [campaign-03](campaign-03/README.md)
+
+## Campaign 04 - Create a DOB
+
+The official Create a DOB tutorial is implemented as a dApp that converts an
+image file into an immutable on-chain Digital Object (DOB) using the Spore SDK,
+then renders the image back from the blockchain data.
+
+Campaign package: [campaign-04](campaign-04/README.md)
+
+Proof: [campaign-04/proof](campaign-04/proof/README.md)
