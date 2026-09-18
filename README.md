@@ -29,3 +29,9 @@ then renders the image back from the blockchain data.
 Campaign package: [campaign-04](campaign-04/README.md)
 
 Proof: [campaign-04/proof](campaign-04/proof/README.md)
+
+## Campaign 05 - Create a Fungible Token
+
+The official Create a Fungible Token tutorial is implemented as Cell Token Desk. It issues an xUDT, queries its live cells by issuer Lock Script Hash, and transfers a partial balance to a different Lock Script on the local OffCKB devnet.
+
+Campaign package: [campaign-05](campaign-05/README.md)

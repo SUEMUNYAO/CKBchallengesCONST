@@ -1,0 +1,24 @@
+{
+  "name": "cell-token-desk",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Campaign 05 xUDT demo for the local OffCKB chain",
+  "scripts": {
+    "start": "parcel page.html --port 1246",
+    "build": "parcel build page.html --dist-dir dist --public-url ./",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ckb-ccc/core": "^1.12.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.30",
+    "@types/react": "^18.3.20",
+    "@types/react-dom": "^18.3.6",
+    "parcel": "^2.15.4",
+    "process": "^0.11.10",
+    "typescript": "^5.8.3"
+  }
+}

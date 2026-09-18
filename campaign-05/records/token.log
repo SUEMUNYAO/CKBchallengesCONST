@@ -1,0 +1,20 @@
+[wallet] issuer account 8
+owner lock hash: 0x335cbbb35e2475293aa2b813c9a841532d17448175b89b5851cc31d696ec1b56
+receiver lock args: 0x5aab386e8a9f4f869776674c7181ea76fef75b55
+
+[issue] committed
+transaction: 0x3e11da8b2408926cb94420f931d385809ae130b019ca5336127c730ac8382f99
+amount: 6840
+token args: 0x335cbbb35e2475293aa2b813c9a841532d17448175b89b5851cc31d696ec1b5600000000
+
+[query] passed issuer Lock Script Hash
+cell count before transfer: 1
+cell amount: 6840
+
+[transfer] committed
+transaction: 0x29a340709c3e8e26b8ee7786fef4bc4f521867bbf7a3ce8b1746c53916532355
+receiver amount: 1730
+issuer change: 5110
+live token cells after transfer: 2
+
+[complete] receiver cell and issuer change cell verified on local OffCKB devnet
